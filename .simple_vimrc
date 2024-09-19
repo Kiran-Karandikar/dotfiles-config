@@ -1,0 +1,32 @@
+set showmode         " Show current input mode: insert, ex, or normal
+set shortmess=atI    " Hide startup welcome message
+set go=              " Hide GUI buttons
+set showcmd          " Show command being entered
+set cmdheight=1      " Command line height
+set novisualbell     " No visual bell
+set laststatus=1     " Always show status line
+set foldmethod=manual        " Manual folding
+set nocompatible     " No vi compatibility
+set background=dark  " Dark background
+
+set autoread         " Automatically reload files changed outside Vim
+
+
+set autoindent       " Auto-indent
+set cindent          " C-style indenting
+set tabstop=4        " Tab width
+set softtabstop=4    " Number of spaces for a tab
+set shiftwidth=4     " Size of an indent
+set expandtab        " Use spaces instead of tabs
+set smarttab         " Use shiftwidth for tabbing
+set number           " Show line numbers
+set history=1000     " History size
+set ignorecase       " Ignore case when searching
+set hlsearch         " Highlight search results
+set incsearch        " Incremental search
+set smartindent      " Smart indent
+
+set completeopt=longest,menu
+
+
+
